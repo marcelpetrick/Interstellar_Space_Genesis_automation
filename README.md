@@ -5,21 +5,22 @@
 `fixInfrastructure.py` is a Python-based automation tool designed to streamline and simplify the otherwise tedious infrastructure setup process when colonizing a new planet. With a single hotkey, it replicates approximately 23 manual clicks through precise GUI interactions. Built with `pyautogui` and `keyboard`, `fixInfrastructure.py` minimizes repetitive work and boosts operational efficiency.
 
 ## What is done:
+
 * the sequence of automatic-infrastructure perks is set
-* the automation is activated
-* the production is set to boost proper output
+* the automation for infrastructure perks is activated
+* the production is set to boost proper output-levels
 
 ## Features
 
 * 🔁 Automates infrastructure setup with pixel-perfect accuracy
-* ⌨️ Triggered by a single hotkey (F9)
+* ⌨️ Triggered by a single hotkey (F9) / Cancel/interrupt via (ESC)
 * 🧠 Smart safety abort feature: move your mouse to the top-left corner to stop
 * 🖱️ Automates combo box and checkbox selections, right-click actions, and multiple sequential GUI interactions
 * 🧰 Highly customizable with defined screen coordinates
 
 ## Usage
 
-1. Make sure your game/application is running and the window is ready for automation.
+1. Make sure your game/application (tested with version 1.6.2 - most recent release right now) is running and the window is ready for automation.
 2. Run the script:
 
 ```bash
